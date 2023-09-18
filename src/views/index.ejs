@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel='stylesheet' href='styles/style.css' />
+  <link rel='stylesheet' href='styles/searchStyle.css' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="header">
+    <a href="/" class="logo">Certificate DApp</a>
+    <div class="header-right">
+      <a class="active" href="/">Home</a>
+      <a href="/issue">Issue Certificate</a>
+    </div>
+  </div>
+  <div style="text-align:center;">
+    <br /><br />
+    <img src="/images/Logo.png" width="225" height="225">
+    <br /><br /><br />
+  </div>
+  <form action="/view" method="POST">
+  <div class="search wrap" style="text-align: center;">
+    <input type="text" name="certificateID" class="searchTerm"
+      placeholder="Enter Certificate ID to View">
+    <button type="submit" class="searchButton">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+  </form>
+</body>
+
+</html>
